@@ -1,8 +1,8 @@
 chrplace.github.io
 ==================
 
-My website
-URL: [christianplace.dk](http:://christianplace.dk)
+My website  
+URL: [christianplace.dk](http://christianplace.dk)
 
 # Install
 ```
