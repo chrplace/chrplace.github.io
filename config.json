@@ -1,0 +1,11 @@
+{
+  "locals": {
+    "url": "http://christianpalce.dk",
+    "name": "Christian Place",
+    "owner": "Christian Place",
+    "description": "About me"
+  },
+  "jade": {
+    "pretty": true
+  }
+}
