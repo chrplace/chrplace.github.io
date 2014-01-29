@@ -136,10 +136,32 @@ hr {
 }
 
 /* main */
+
 .index p img{
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+/* social links */
+
+ul.social li {
+  list-style: none;
+  float: left;
+  margin: 0.5em;
+  padding: 1em;
+}
+
+ul.social li.twitter {
+  list-style-image: url(/images/icon_twitter.png);
+}
+
+ul.social li.linkedin {
+  list-style-image: url("/images/icon_linkedin.png");
+}
+
+ul.social li.twister {
+  list-style-image: url("/images/icon_twister.png");
 }
 
 /* page footer */

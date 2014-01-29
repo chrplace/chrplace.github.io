@@ -14,6 +14,7 @@ html(lang='en')
       link(rel='stylesheet', href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic|Anonymous+Pro:400,700,400italic,700italic|Merriweather:400,700,300')
       link(rel='stylesheet', href='/css/main.css')
   body(class=bodyclass)
+    include mixins
     header.header
       div.content-wrap
         block header
@@ -23,7 +24,9 @@ html(lang='en')
     div#content
       div.content-wrap
         block content
-          h2 Welcome to zombocom!
+        block social
+          div.social
+            mixin sociallinks
     footer
       div.content-wrap
         block footer
