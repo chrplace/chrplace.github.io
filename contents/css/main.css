@@ -1,5 +1,23 @@
 
+@font-face {
+  font-family: lato;
+  src: url(/fonts/Lato-Reg.ttf);
+}
+
+@font-face {
+  font-family: lato;
+  src: url(/fonts/Lato-Bol.ttf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: lato;
+  src: url(/fonts/Lato-LigIta.ttf);
+  font-style: italic;
+}
+
 h1, h2, h3, h4, h5, h6, p, body, a, img, ul, ol, blockquote, pre {
+  font-family: lato;
   margin: 0; padding: 0; border: 0;
 }
 
@@ -40,6 +58,7 @@ pre {
 }
 
 h1 {
+  font-weight: bold;
   font-size: 2em;
   margin-bottom: 1em;
 }
