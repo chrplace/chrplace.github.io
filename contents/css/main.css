@@ -210,7 +210,8 @@ ul.social li a.icon-linkedin:hover {
 }
 
 ul.social li a.icon-github:hover {
-  color: #242424;
+  color: #ffffff;
+  background-color: #000000;
 }
 
 .icon-twister:after{
