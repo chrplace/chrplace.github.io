@@ -190,7 +190,7 @@ ul.social li a {
 }
 
 .icon-twitter:after {
-  content: "\E600";
+  content: "\E602";
 }
 
 ul.social li a.icon-twitter:hover {
@@ -215,7 +215,7 @@ ul.social li a.icon-github:hover {
 }
 
 .icon-twister:after{
-  content: "\E605";
+  content: "\E601";
 }
 
 ul.social li a.icon-twister:hover {
